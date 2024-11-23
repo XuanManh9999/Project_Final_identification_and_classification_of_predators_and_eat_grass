@@ -128,3 +128,13 @@ Hươu cao cổ...
 ![Ảnh minh họa 1](https://i.ibb.co/tQrPSzy/z6062082663305-aba56f599740c367c439aa820510b1ef.jpg)
 ![Ảnh minh họa 2](https://i.ibb.co/VWzWPvy/z6062081910698-552778bf566f6c22e20f610fb283e970.jpg)
 ![Ảnh minh họa 3](https://i.ibb.co/2MKbG1f/image.png)
+## Độ chính xác của mô hình đo được
+## Độ Chính Xác và Dung Lượng Mô Hình
+
+| Hệ thống            | Độ Chính Xác (%) | Dung Lượng Mô Hình (MB) |
+|---------------------|------------------|-------------------------|
+| **ResNet50**         | 90.3%            | 98 MB                   |
+| **MobileNetV2**      | 85.7%            | 14 MB                   |
+| **VGG16**            | 87.5%            | 528 MB                  |
+| **InceptionV3**      | 89.1%            | 92 MB                   |
+
