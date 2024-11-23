@@ -1,0 +1,12 @@
+tensorflow
+keras
+opencv-python
+pillow
+numpy
+matplotlib
+scikit-learn
+pandas
+jupyterlab
+
+
+python -m app.train
