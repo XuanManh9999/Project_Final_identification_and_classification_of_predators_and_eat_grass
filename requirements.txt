@@ -8,5 +8,3 @@ scikit-learn
 pandas
 jupyterlab
 
-
-python -m app.train

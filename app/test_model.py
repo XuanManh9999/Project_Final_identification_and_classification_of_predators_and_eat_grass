@@ -10,7 +10,7 @@ model = ResNet50(weights='imagenet')
 
 # Danh sách động vật ăn thịt (carnivores) mở rộng
 carnivores = [
-    'lion', 'tiger', 'wolf', 'leopard', 'cheetah', 'hyena', 'fox', 'panther', 
+    'lion', 'tiger', 'wolf', 'leopard', 'cheetah', 'hyena', 'fox', 'panther', 'brown_bear',
     'jaguar', 'cougar', 'lynx', 'bobcat', 'crocodile', 'alligator', 'shark',
     'eagle', 'hawk', 'falcon', 'vulture', 'owl', 'python', 'cobra', 'orca',
     'polar bear', 'grizzly bear', 'puma', 'komodo dragon', 'hyena', 'jackal',
@@ -21,12 +21,12 @@ carnivores = [
     'African_crocodile', 'quoll', 'coati', 'meerkat', 'stoat', 'fossa', 'caracal', 'ocelot', 'kookaburra',
     'mole', 'harpy eagle', 'badger', 'golden jackal', 'lynx', 'ring-tailed lemur', 'European wildcat',
     'crocodile', 'sea snake', 'albatross', 'vulture', 'black mamba', 'snow leopard', 'jaguarundi', 'shark',
-    'seal', 'killer whale', 'cuttlefish'
+    'seal', 'killer whale', 'cuttlefish', 'killer_whale'
 ]
 
 # Danh sách động vật ăn cỏ (herbivores) mở rộng
 herbivores = [
-    'elephant', 'deer', 'cow', 'giraffe', 'rabbit', 'zebra', 'goat', 'sheep',
+    'elephant', 'deer', 'cow', 'giraffe', 'rabbit', 'zebra', 'goat', 'sheep', 'kite',
     'horse', 'buffalo', 'camel', 'alpaca', 'donkey', 'antelope', 'bison', 
     'kangaroo', 'koala', 'panda', 'manatee', 'sloth', 'rhinoceros', 'hippopotamus',
     'yak', 'moose', 'llama', 'guinea pig', 'capybara', 'ibex', 'bighorn', 'platypus',
@@ -107,7 +107,7 @@ def display_images_with_navigation(model, image_dir):
     plt.show()
 
 # Đường dẫn thư mục chứa ảnh
-image_dir = "data/raw/deer"
+image_dir = "data/animal"
 
 # Hiển thị với điều hướng
 display_images_with_navigation(model, image_dir)
