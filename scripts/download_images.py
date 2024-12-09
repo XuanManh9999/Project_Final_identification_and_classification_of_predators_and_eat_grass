@@ -14,7 +14,7 @@ herbivores = [
     'elephant', 'deer', 'cow', 'giraffe', 'rabbit', 'zebra', 'goat', 'sheep',
     'horse', 'buffalo', 'camel', 'alpaca', 'donkey', 'antelope', 'bison', 
     'kangaroo', 'koala', 'panda', 'manatee', 'sloth', 'rhinoceros', 'hippopotamus',
-    'yak', 'moose', 'llama', 'guinea pig', 'capybara'
+    'yak', 'moose', 'llama', 'guinea pig'
 ]
 
 def download_images(keywords, output_dir, max_num=50):
